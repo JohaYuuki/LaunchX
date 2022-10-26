@@ -25,4 +25,4 @@
  
  **Proceso**
 
-[Volver &ldca;](/01%20-%20INTRO/README.md "Regresar a página anterior")
+[Volver &ldca;](/Practica1/README.md "Regresar a página anterior")

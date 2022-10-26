@@ -8,4 +8,4 @@ Nombre del Proyecto: Abogabot
 - [Wireframe UX](./requerimiento/requerimientos.md)
 - [UI](./requerimiento/requerimientos.md)
 
-[Volver &ldca;](/01%20-%20INTRO/README.md "Regresar a página anterior")
+[Volver &ldca;](/LaunchX---Front-End/README.md "Regresar a página anterior")
