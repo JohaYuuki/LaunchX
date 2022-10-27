@@ -1,0 +1,1 @@
+<img src="../images/buyer.png" alt="BuyerPersona" height="350">
