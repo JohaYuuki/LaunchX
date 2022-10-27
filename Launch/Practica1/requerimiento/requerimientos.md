@@ -16,7 +16,7 @@
  - Abogabot, se podrá utilizar en plataformas web y móvil, para poder realizar el seguimiento de las actualizaciones del proceso legal.
  - La paleta de colores escogida para el cliente será la siguiente: https://colorhunt.co/palette/06283d256d8547b5ffdff6ff 
 
- <img src="./images/paleta.png" alt="PaletaColores" height="350">
+ <img src="../images/paleta.png" alt="PaletaColores" height="350">
 
  - La comunicación se dará a través de notificaciones en la app, pero si el cliente quiere hablar directamente con el Admin se podrá realizar por correo electrónico
 
