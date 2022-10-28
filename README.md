@@ -1,2 +1,2 @@
-# LaunchX---Front-End
-Prácticas Realizadas de Front End
+# LaunchX 
+Prácticas Realizadas Certificación Full Stack
