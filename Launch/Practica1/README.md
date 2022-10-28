@@ -5,7 +5,7 @@ Nombre del Proyecto: Abogabot
 - [Toma de Requerimientos](./requerimiento/requerimientos.md)
 - [Buyer Persona](./requerimiento/buyer.md)
 - [Público Objetivo](./requerimiento/publicoobjetivo.md)
-- [Wireframe UX](./requerimiento/requerimientos.md)
-- [UI](./requerimiento/requerimientos.md)
+- [Wireframe UX](./requerimiento/wireframe.md)
+- [UI](./requerimiento/ui.md)
 
 [Volver &ldca;](/Launch/README.md "Regresar a página anterior")
