@@ -2,4 +2,4 @@
 Prácticas Realizadas Certificación Full Stack
 
 - [Frontend](./Front/README.md)
-- [Frontend](./Back/README.md)
+- [Backend](./Back/README.md)
