@@ -2,7 +2,7 @@
 
 Wireframes del Usuario
 
-<img src="../images/abogabot1.jpg" alt="WireframeUsuario" height="350">
+<img src="../images/abogabot1.jpg" alt="WireframeUsuario" height="550">
 
 <img src="../images/abogabot2.jpg" alt="WireframeUsuario" height="350">
 
