@@ -24,7 +24,7 @@
 
  **Diagrama BPM**
 
-<img src="../images/bpm.png" alt="DiagramaBPM" height="350">
+<img src="../images/bpm.jpg" alt="DiagramaBPM" height="350">
 
  # Requisitos Técnicos
 
