@@ -14,7 +14,7 @@ Wireframes del Administrador
 
 Wireframes del Usuario
 
-- [Wireframe UX](./files/AbogabotWireframe.pdf)
+- [Wireframe UX](../files/AbogabotWireframe.pdf)
 
 Wireframes del Administrador
 
