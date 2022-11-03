@@ -12,14 +12,14 @@
         <label for="Input1">Ejemplo Input Texto</label>
         <br>
         <!--Entradas / Inputs-->
-        <input type="text" id="Input1" name="Entrada1">
+        <input type="text" id="Input1" name="Entrada1" placeholder="Texto">
         <!--Tipos de Inputs-->
         <br><br>
         <hr>
         <!--Tipos de Inputs-->
         <h2>Input de Texto</h2>
         <label for="correo1">Input de Correo</label><br>
-        <input type="email" name="correo1" id="correo1"><br><br>
+        <input type="email" name="correo1" id="correo1" placeholder="email"><br><br>
 
         <label for="num1">Input de Número</label><br>
         <input type="number" name="num1" id="num1"><br><br>
@@ -32,6 +32,85 @@
 
         <label for="url1">Input de URL</label><br>
         <input type="url" name="url1" id="url1"><br><br>
+        <br><br>
+        <hr>
+        
+        <h2>Input de Selección Multiple</h2><br>
+        <input type="checkbox" name="topping1" id="topping1" value="chispas">
+        <label for="topping1">chispas</label><br>
+        <input type="checkbox" name="topping2" id="topping2" value="nuez">
+        <label for="topping2">nuez</label><br>
+        <input type="checkbox" name="topping3" id="topping3" value="fresas">
+        <label for="topping3">Fresas</label>
+
+        <h2>Input de Selección Única</h2><br>
+        <input type="radio" name="salsas" id="salsas" value="Roja">
+        <label for="roja">Roja</label><br>
+        <input type="radio" name="salsas" id="verde" value="Verde">
+        <label for="verde">Verde</label><br>
+        <input type="radio" name="salsas" id="guacamole" value="Guacamole">
+        <label for="guacamole">Guacamole</label>
+
+        <h2>Select</h2>
+        <label for="tacos">De que la orden</label>
+        <select name="tacos" id="tacos">
+            <option value="pastor">Pastor</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+        <h2>Select con input</h2>
+        <label for="refresco">Elige un refresco</label>
+        <input list="refresco">
+        <datalist id="refresco">
+            <option value="Coca Cola">
+            <option value="2">2
+            <option value="3">3
+        </datalist>
+        <br><br>
+
+        <hr>
+
+        <h2>Input de Fechas</h2>
+        <input type="date" name="f1" id="f1"><br>
+        <input type="datetime-local" name="f2" id="f2"><br>
+        <input type="week" name="f3" id="f3"><br>
+        <input type="time" name="f4" id="f4"><br>
+        <input type="month" name="f5" id="f5"><br><br>
+
+        <hr>
+
+        <h2>Input de Archivo</h2>
+        <input type="file" name="arch1" id="arch1" multiple size="2mb"><br><br>
+
+        <h2>Input de color</h2>
+        <input type="color" name="c1" id="c1"><br><br>
+
+        <h2>Input de Rango</h2>
+        <label for="vol">Volumen (0 - 50):</label><br>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+<br>
+
+        <hr>
+        
+        <h2>Input de Botón</h2>
+        <input type="reset"><br>
+        <input type="submit"><br>
+        <input type="button" id="b1" name="b1" value="Botón1" onclick="alert('Bienvenido');"><br><br>
+
+        <hr>
+
+        <!--Formularios-->
+        <h2>Ejemplo de Formulario</h2>
+        <form action="/accion.js" id="form1" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" form="form1">
 
     </body>
 </html>
