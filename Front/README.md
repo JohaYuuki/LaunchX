@@ -8,3 +8,6 @@ Prácticas Realizadas de Front End
 - [Práctica 2 - Pastelería Dulce Motivo](./Practica2/Practica2.html)
 - [Ejercicio 4 - Práctica CSS / Selectores](./Ejercicios/EjercicioCSS.html)
 - [Ejercicio 5 - Práctica CSS / Colores](./Ejercicios/EjercicioCSS2.html)
+- [Ejercicio 6 - Práctica CSS / Fondos](./Ejercicios/EjercicioCSS3.html)
+- [Ejercicio 7 - Práctica CSS / Texto](./Ejercicios/EjercicioCSS4.html)
+- [Ejercicio 8 - Práctica CSS / Flexbox](./Ejercicios/EjercicioCSS5.html)
