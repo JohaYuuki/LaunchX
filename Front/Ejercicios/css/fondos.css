@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 800px;
+}
+
+div{
+    height: 800px;
+}
+
+.fondoColor{
+    background-color: #0f6666;
+}
+.fondoOpacidad{
+    background-color: #5d0c0c;
+    opacity: 0.6;
+}
+.fondoImagen{
+    background-image: url(../img/sova.jpeg);
+}
+.fondoRepetidoX{
+    background-image: url(../img/programmer.png);
+    background-repeat: repeat-x;
+}
+.fondoRepetidoY{
+    background-image: url(../img/sova.jpeg);
+    background-repeat: repeat-y;
+}
+.fondoNoRepetido{
+    background-image: url(../img/programmer.png);
+    background-repeat: no-repeat;
+}
+.fondoPosicion{
+    background-image: url(../img/sova.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.fondoCompleto{
+    background-image: url(../img/programmer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

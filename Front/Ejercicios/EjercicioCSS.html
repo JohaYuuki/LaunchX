@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        /*Cascade Style Sheet--CSS*/
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: aqua;
+        }
+        p{
+            color: red;
+            text-align: center;
+        }
+        #titulo{
+            color: rgb(200, 150, 228);
+            text-align: right;
+        }
+        .izquierda{
+            color: green;
+        }
+        p.izquierda{
+            text-decoration: underline;
+            text-align: left;
+        }
+        .contraste{
+            background-color: black;
+        }
+        h1, h2, p{
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .contraste, .izquierda{
+            border-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!--Comentarios-->
+    <h1>Header Simple</h1>
+    <h2 id="titulo" class="izquierda">Header con id Titulo</h2>
+    <p>Parrafo Simple</p>
+
+    <h3 class="izquierda">Prueba Clase Header 3</h3>
+    <p class="izquierda">Prueba clase parrafo</p>
+    <h3 class="izquierda contraste">Prueba multiple clases parrafos</h3>
+</body>
+</html>
