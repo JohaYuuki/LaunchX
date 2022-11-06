@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dulce Motivo</title>
+    </head>
+    <body>
+        <header>
+            <h1>Dulce Motivo</h1>
+        </header>
+        
+        <img src="./dulcemotivo.png" alt="Logo Dulce Motivo">
+        <section>
+            <h2>Menú</h2>
+            <p> Pedidos superiores a 10 Unidades reciben un 10% descuento en su compra</p>
+            <ul>
+                <li>Pan......................... S/ 100</li>
+                <li>Muffins..................... S/ 150</li>
+                <li>Donuts...................... S/ 50</li>
+                <li>Galletas.................... S/ 250</li>
+                <li>Tartas...................... S/ 250</li>
+                <li>Pastas...................... S/ 250</li>
+                <li>Brownies.................... S/ 250</li>
+                <li>Pie......................... S/ 250</li>
+            </ul>
+            <h3>Especiales</h3>
+            <p>Pedidos superiores a 10 Unidades reciben un 10% descuento en su compra y envío gratis</p>
+            <dl>
+                <dt>Alfajores................... S/ 350</dt>
+                <dd>- Alfajores formados por dos galletas finas de bizcocho que se rellenan de manjar blanco</dd>
+                <dt>Alfajor Nube................ S/ 350</dt>
+                <dd>- Alfajor que no tiene ningún tipo de harina, hechos solamente con Coco y Huevo. Y rellenos de Dulce de Leche</dd>
+                <dt>ChocaBrownie................ S/ 350</dt>
+                <dd>- Brownies de Chocolate con diseño especial de acuerdo a la época</dd>
+            </dl>
+        </section>
+        <hr>
+        <section>
+            <h2>Ubicación</h2>
+            <p>Dulce Motivo realiza entregas a domicilio o para ser retiradas en el local</p>
+            <h3>Nos encontramos Ubicados en:</h3>
+            <a href="https://goo.gl/maps/ijR1f6bRrjewmBq27" target="_blank">Av. Monte de los Olivos 746, Santiago de Surco 15039</a><br>
+            <h3>Horarios de Atención</h3>
+            <p>De Lunes a Domingo - 8:00am a 6:00pm </p>
+        </section>
+        <hr>
+        <section>
+            <h2>Pedidos</h2>
+            <h4>Realiza tu Pedido Aquí..!</h4>
+            <form action="">
+                <p>¿Dónde quieres recibirlo?</p>
+                    <select>
+                        <option value="entrega">Deseo que me lo envíen</option>
+                        <option value="retirar">Yo iré a retirarlo</option>
+                    </select>
+                <p>¿Que deseas Pedir?</p>
+                    <input type="checkbox" name="Pan" id="Pan" value="Pan">
+                    <label for="Pan">Pan</label>
+                    <input type="number" name="PanNumber" id="PanNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="Muffins" id="Muffins" value="Muffins">
+                    <label for="Muffins">Muffins</label>
+                    <input type="number" name="MuffinsNumber" id="MuffinsNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="Donuts" id="Donuts" value="Donuts">
+                    <label for="Donuts">Donuts</label>
+                    <input type="number" name="DonutsNumber" id="DonutsNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="Galletas" id="Galletas" value="Galletas">
+                    <label for="Galletas">Galletas</label>
+                    <input type="number" name="GalletasNumber" id="GalletasNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="Tartas" id="Tartas" value="Tartas">
+                    <label for="Tartas">Tartas</label>
+                    <input type="number" name="TartasNumber" id="TartasNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="Pastas" id="Pastas" value="Pastas">
+                    <label for="Pastas">Pastas</label>
+                    <input type="number" name="PastasNumber" id="PastasNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="Brownies" id="Brownies" value="Brownies">
+                    <label for="Brownies">Brownies</label>
+                    <input type="number" name="BrowniesNumber" id="BrowniesNumber" placeholder="Cantidad" min="0"> 
+                    <br>
+                    <input type="checkbox" name="Pie" id="Pie" value="Pie">
+                    <label for="Pie">Pie</label>
+                    <input type="number" name="PieNumber" id="PieNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <h5>Especiales</h5>
+                    <input type="checkbox" name="Alfajores" id="Alfajores">
+                    <label for="Alfajores">Alfajores</label>
+                    <input type="number" name="AlfajoresNumber" id="AlfajoresNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="AlfajorNube" id="AlfajorNube">
+                    <label for="AlfajorNube">Alfajor Nube</label>
+                    <input type="number" name="AlfajorNubeNumber" id="EAlfajorNubeNumber" placeholder="Cantidad" min="0">
+                    <br>
+                    <input type="checkbox" name="ChocaBrownie" id="ChocaBrownie">
+                    <label for="ChocaBrownie">ChocaBrownie</label>
+                    <input type="number" name="ChocaBrownieNumber" id="ChocaBrownieNumber" placeholder="Cantidad" min="0">
+                    <br>
+                <p>Fecha de Entrega</p>
+                    <input type="datetime-local" name="entrega" id="entrega">
+                    <label for="entrega">Fecha de Entrega</label>
+                <hr>
+                <h3>Datos para la Factura</h3>
+                    <label for="nombre">Nombres Completos:</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombres y Apellidos">
+                    <br>
+                    <label for="dni">DNI:</label><br>
+                    <input type="text" name="dni" id="dni" maxlength="10" placeholder="DNI">
+                    <br>
+                    <label for="tel">Teléfono</label><br>
+                    <input type="tel" name="tel" id="tel" placeholder="Número de teléfono">
+                    <br>
+                    <label for="dir">Dirección</label><br>
+                    <input type="text" name="dir" id="dir" placeholder="Dirección">
+                    <br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Dirección de Correo Electrónico">
+                    <br>
+                    <br>
+                <button type="submit">Realizar Pedido</button>
+            </form>
+        </section>
+        <h2>Contacto</h2>
+        <h3>Gabriela Alicia del Aguila</h3>
+        <h4>Repostera y Chef</h4>
+        <p>+51 999 999 999</p>
+        <h3>Redes Sociales:</h3>
+        <a href="https://www.facebook.com/profile.php?id=100054580383403">Facebook</a>
+
+    </body>
+</html>
