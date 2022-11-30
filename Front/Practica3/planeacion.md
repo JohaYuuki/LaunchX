@@ -30,11 +30,10 @@
 
  - Tecnología a Usarse:
 
-HTML y CSS
- <img src="./imgs/HTML5.png" alt="HTML" height="50"> 
- <img src="./imgs/CSS.png" alt="CSS" height="50"> 
+ <img src="./imgs/HTML5.png" alt="HTML" height="100"> 
+ <img src="./imgs/CSS.png" alt="CSS" height="100"> 
 
  - Desplegado en:
- <img src="./imgs/github.png" alt="Github" height="50"> 
+ <img src="./imgs/github.png" alt="Github" height="100"> 
 
  [Volver &ldca;](/Front/Practica3/README.md "Regresar a página anterior")

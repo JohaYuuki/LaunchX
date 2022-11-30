@@ -11,4 +11,4 @@ Prácticas Realizadas de Front End
 - [Ejercicio 6 - Práctica CSS / Fondos](./Ejercicios/EjercicioCSS3.html)
 - [Ejercicio 7 - Práctica CSS / Texto](./Ejercicios/EjercicioCSS4.html)
 - [Ejercicio 8 - Práctica CSS / Flexbox](./Ejercicios/EjercicioCSS5.html)
-- [Práctica 2 - Pastelería Dulce Motivo](./Practica3/README.md)
+- [Práctica 3 - Campaña de Vacunación](./Practica3/README.md)
