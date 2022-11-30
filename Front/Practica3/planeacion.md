@@ -23,15 +23,12 @@
 
  - Logo en varios colores
 
- <img src="./imgs/logo1.png" alt="Logo1" height="100">
- <img src="./imgs/logo2.png" alt="Logo2" height="100">
- <img src="./imgs/logo3.png" alt="Logo3" height="100">
- <img src="./imgs/logo4.png" alt="Logo4" height="100">
+ <img src="./imgs/logo1.png" alt="Logo1" height="100">  <img src="./imgs/logo2.png" alt="Logo2" height="100">
+ <img src="./imgs/logo3.png" alt="Logo3" height="100">  <img src="./imgs/logo4.png" alt="Logo4" height="100">
 
  - Tecnología a Usarse:
 
- <img src="./imgs/HTML5.png" alt="HTML" height="100"> 
- <img src="./imgs/CSS.png" alt="CSS" height="100"> 
+ <img src="./imgs/HTML5.png" alt="HTML" height="100">   <img src="./imgs/CSS.png" alt="CSS" height="100"> 
 
  - Desplegado en:
  <img src="./imgs/github.png" alt="Github" height="100"> 
