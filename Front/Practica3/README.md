@@ -10,15 +10,13 @@ La práctica consiste en lo siguiente:
 - Maquetación del sitio con HTML
 - Estilos con CSS (Lo más acercado posible, pueden ser otras imágenes, íconos o colores, pero tiene que ser lo más cercano que puedas)
 
-*Bonus:*
+"Bonus:"
 - Bonus de diseños o páginas adicionales (Totalmente a tu creatividad)
 - Bonus de despliegue de la página 
 ```
-
-
-- [Buyer Persona](./requerimiento/buyer.md)
-- [Público Objetivo](./requerimiento/publicoobjetivo.md)
-- [Wireframe UX](./requerimiento/wireframe.md)
-- [UI](./requerimiento/ui.md)
+- [Planeación](./planeacion.md)
+- [Maquetación HTML](./requerimiento/publicoobjetivo.md)
+- [Estilos CSS](./requerimiento/wireframe.md)
+- [Bonus Despliegue](./requerimiento/ui.md)
 
 [Volver &ldca;](/Front/README.md "Regresar a página anterior")
