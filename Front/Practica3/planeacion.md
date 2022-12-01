@@ -36,8 +36,8 @@
 
  **Folleto de Campaña**
 
- <img src="./imgs/merca1.png" alt="Folleto 1" height="200">  
+ <img src="./imgs/merca1.png" alt="Folleto 1" height="400">  
  
- <img src="./imgs/merca2.png" alt="Folleto 2" height="200"> 
+ <img src="./imgs/merca2.png" alt="Folleto 2" height="400"> 
 
  [Volver &ldca;](/Front/Practica3/README.md "Regresar a página anterior")
