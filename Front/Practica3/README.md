@@ -15,8 +15,8 @@ La práctica consiste en lo siguiente:
 - Bonus de despliegue de la página 
 ```
 - [Planeación](./planeacion.md)
-- [Maquetación HTML](./requerimiento/publicoobjetivo.md)
-- [Estilos CSS](./requerimiento/wireframe.md)
+- [Maquetación HTML](./deploy/vaccination.html)
+- [Estilos CSS](./deploy/css/style.css)
 - [Bonus Despliegue](./requerimiento/ui.md)
 
 [Volver &ldca;](/Front/README.md "Regresar a página anterior")
