@@ -1,0 +1,22 @@
+####################### MIERCOLES 20-04 ########################
+cd RIOT2/RIOT/examples/gnrc_border_router/
+#sudo ./../../dist/tools/tapsetup/tapsetup --create 1
+sudo make term BOARD=openmote-b
+
+#Ubuntu///// PONER ESTOS COMANDOS
+sudo ip a a 2001:db8::1/64 dev tap5
+sudo ip r d 2001:db8::/64 dev tap5
+sudo ip r a 2001:db8::2 dev tap5
+#sudo ip r a 2001:db8::/64 via fe80::ac36:dbff:fe9a:af46 (2001:db8::2) dev tap5
+sudo ip r a 2001:db8::/64 via 2001:db8::2 dev tap5
+/////HASTA AQUI LOS COMANDOS QUE FALTA PONER
+
+#borde
+ifconfig 5 add 2001:db8::2/64
+ifconfig 4 add 2001:db8::3/48
+#nib route add 5 default fe80::8af:d5ff:fe66:73b7 (2001:db8::1)   (Esta cambia en ubuntu cada rato, tap5)
+nib route add 5 default 2001:db8::1
+nib route add 4 default 2001:db8::ac8d:fee1:2009:795c (nodo sencillo) 
+nib route add 4 default 2001:db8::ac8d:fee1:60b0:b88b
+rpl init 4
+rpl root 1 2001:db8::3
