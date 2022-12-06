@@ -17,6 +17,6 @@ La práctica consiste en lo siguiente:
 - [Planeación](./planeacion.md)
 - [Maquetación HTML](./deploy/vaccination.html)
 - [Estilos CSS](./deploy/css/style.css)
-- [Bonus Despliegue](./requerimiento/ui.md)
+- [Bonus Despliegue]()
 
 [Volver &ldca;](/Front/README.md "Regresar a página anterior")
